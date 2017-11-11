@@ -1,5 +1,6 @@
 # Underground Localization
-This repository holds the source code for my thesis for the fulfillment of the degree of MSc Science in Geomatics for the built environment. The MSc Title was awarded on November 9th 2017. 
+This repository holds the source code for my thesis for the fulfillment of the degree of MSc Science in Geomatics for the built environment. The MSc Title was awarded on November 9th 2017.    
+
 !! Note: Some data is removed from this repository for copyright purposes. Therefore, code in this repository will not execute properly. Transformer data and validation data should be retrieved somewhere else.
 
 ## INPUT DATA
