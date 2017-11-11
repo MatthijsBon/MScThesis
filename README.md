@@ -26,7 +26,15 @@ Optional:
 5b. Method B: Connect to Closest Junction Vertex on the street network   
 5c. Method C: Iteratively Connect to the Closest Junction Vertex on the street network  
 
-A: Order Closest Junction
+A: Order Closest Point
+1. Connect NWB with trafos & blds
+2. Build graph (Network)
+3. Join on location (Network + blds + trafos)
+4. Add type attribute
+5. Check
+6. Add length attribute to NWB
+
+B: Order Closest Junction
 1. Split NWB in segments (for example 75m)
 2. Extract nodes and save as endpoints shapefile
 3. Run connect2ClosestPoint in python, for blds and trafo's
@@ -37,14 +45,6 @@ A: Order Closest Junction
 8. Join on location (Network + blds + trafos)
 9. Add type attribute
 10. Add length attribute to NWB
-
-B: Order Closest Point
-1. Connect NWB with trafos & blds
-2. Build graph (Network)
-3. Join on location (Network + blds + trafos)
-4. Add type attribute
-5. Check
-6. Add length attribute to NWB
 
 C: Order Iterative Closest Junction
 1. Import maps in GRASS
