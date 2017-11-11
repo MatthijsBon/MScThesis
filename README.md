@@ -21,10 +21,10 @@ Optional:
 4. Save building points 
 
 ## MANUAL SKELETON CONSTRUCTION
-5. Connect buildings and transformers to the NWB using GRASS GIS and QGIS Networks plugin
-5a. Method A: Connect to Closest Point on the street network 
-5b. Method B: Connect to Closest Junction Vertex on the street network
-5c. Method C: Iteratively Connect to the Closest Junction Vertex on the street network
+5. Connect buildings and transformers to the NWB using GRASS GIS and QGIS Networks plugin  
+5a. Method A: Connect to Closest Point on the street network   
+5b. Method B: Connect to Closest Junction Vertex on the street network   
+5c. Method C: Iteratively Connect to the Closest Junction Vertex on the street network  
 
 A: Order Closest Junction
 1. Split NWB in segments (for example 75m)
